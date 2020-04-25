@@ -19,7 +19,7 @@
     return sum
  }
 
- // Tn = O(2n)
+ // Tn = O(2n+2)
 
  /*
  *@n 累加
