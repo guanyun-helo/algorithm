@@ -19,7 +19,7 @@
     return sum
  }
 
- // On = 
+ // Tn
 
  /*
  *@n 累加
