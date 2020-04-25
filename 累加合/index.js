@@ -26,6 +26,7 @@ function subAdd(n){
     let sum = 0; // 运行一次
     let i = 1; // 运行一次
     for(i<n;i++;){ //运行n次
+        for(let )
         sum = sum + i; // 运行n次
     }
     return sum
