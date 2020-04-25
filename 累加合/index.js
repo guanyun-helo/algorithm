@@ -35,6 +35,6 @@ function subAdd(n){
     return sum
  }
 
- // Tn = O()
+ // Tn = O(2n + )
 
  
