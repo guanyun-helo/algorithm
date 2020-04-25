@@ -1,7 +1,7 @@
 /*
  * @Author: helo
  * @Date: 2020-04-25 14:35:06
- * @LastEditTime: 2020-04-25 15:04:33
+ * @LastEditTime: 2020-04-25 15:04:42
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /algorithm/累加合/index.js
@@ -19,7 +19,7 @@
     return sum
  }
 
- // Tn
+ // T()
 
  /*
  *@n 累加
