@@ -35,6 +35,6 @@ function subAdd(n){
     return sum
  }
 
- // Tn = O(2n + n + n^2 + n^2)
+ // Tn = O(2n + n + n^2 + 2n^2)
 
  
