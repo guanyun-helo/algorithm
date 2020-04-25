@@ -29,7 +29,6 @@ function subAdd(n){
         for(let j =1;j<=n;j++){
             sum = sum + i + j
         }
-        sum = sum + i; // 运行n次
     }
     return sum
  }
