@@ -8,14 +8,8 @@
 输入: 1->2->3->4->5->NULL
 输出: 5->4->3->2->1->NULL
 */
-
 const fs = require('fs')
 const example = require('./data')
-/*
-@nums 數組
-@target 目標值
-注意在 map.set(nums[i],i) 後setvalue
-*/
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
