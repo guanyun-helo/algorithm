@@ -17,25 +17,21 @@ function ListNode(val) {
     this.next = null;
 }
 function removeNthFromEnd(head,n){
-    let list = new ListNode()
-    let prev = list
-    let curr = head
-    list.next = head
-    while(n !== 0){
-        console.log('1')
-        curr = curr.next
-        n--
+    let preHead = new ListNode(-1);
+    preHead.next = head;
+    let fast = preHead;
+    let slow = preHead;
+    while(n != 0){
+        console.log(n) // n = 0  break
+        fast = fast.next;
+        n--;
     }
-    while(curr.next !== null){
-        console.log('2')
-        curr = curr.next
-        prev = prev.next
-        console.log(curr)
-        console.log(prev)
+    while(fast.next != null){
+        fast = fast.next;
+        slow = slow.next;
     }
-    // console.log(curr)
-    prev.next = prev.next.next
-    return list.next
+    slow.next = slow.next.next;
+    return preHead.next;
 }
 
 example.forEach((item)=>{
