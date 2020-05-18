@@ -99,5 +99,7 @@ Object.defineProperty(object1, 'property1', {
 ````
 
 # 跨域
--    
+- JSONP
+- CORS
+- 代理   
        
