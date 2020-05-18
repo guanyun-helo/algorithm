@@ -98,7 +98,5 @@ Object.defineProperty(object1, 'property1', {
 
 ````
 
-
-   
    
        
