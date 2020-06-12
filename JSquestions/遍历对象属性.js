@@ -1,1 +1,1 @@
-const object = {}
+const objectA = {}
